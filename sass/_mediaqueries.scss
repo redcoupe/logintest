@@ -2,9 +2,49 @@
 /* Media queries */
 
 @media (max-width: 480px) {
+    header {
+        background-color: $white !important;
+        -webkit-box-shadow: none !important;
+	   -moz-box-shadow: none !important;
+	   box-shadow: none !important;
+    }
+    main {
+        background-color: $xsmainbg;
+        .backlink {
+            display: none;
+        }
+        .left-container {
+            form {
+                margin-top: 1rem !important;
+                h1 {
+                    margin-left: 0.5rem;
+                }
+                .btn-block {
+                    max-width: inherit !important;
+                }
+                .otherlogins {
+                    margin-top: 1rem !important;
+                }
+                a {
+                    &.prplink {
+                        margin-left: 0.7rem;
+                    }
+                }
+            }
+            p {
+                margin-left: 0.7rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 980px) {
     .left-container {
         padding-left: 1rem !important;
         padding-right: 1rem !important;
+        h1 {
+            font-size: 1.2rem !important;
+        }
     }
     .backlink {
         left: 0 !important;
