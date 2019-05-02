@@ -4,6 +4,7 @@ main {
     .container {
         margin: 0;
         max-width: 100%;
+        height: 94vh;
         
         .leftcontainer {
             height: 94vh;
@@ -17,52 +18,6 @@ main {
                 .backlink {
                     position: relative;
                     left: -2rem;
-                }
-
-                form {
-                    margin-top: 3rem;
-
-                    h1 {
-                        font-size: 1.4rem;
-                        font-weight: bold !important;
-                    }
-
-                    .otherlogins {
-                        margin-top: 4rem;
-                    }
-
-                    input {
-                        background-color: $color__background--inputs;
-                        margin: 2vh 0;
-                        border: 0;
-                    }
-
-                    .btn-block {
-                        font-size: inherit;
-                        background-color: $color__background--button;
-                        border-color: $color__background--button;
-                        max-width: 7rem;
-
-                        &.btn-other {
-                            background-color: $color__background--button-other;
-                            border-color: $color__background--button-other;
-                            max-width: 100%;
-
-                            &.btn-other-google {
-                                border-color: $color__background--button-google-border;
-                                color: $color__background--button-google-text;
-                            }
-
-                            &.btn-other-facebook {
-                                border-color: $color__background--button-facebook-border;
-                                color: $color__background--button-facebook-text;
-                            }
-                        }
-
-                        img {
-                            margin-right: 0.4rem;
-                        }
-                    }
                 }
             }
 
@@ -98,10 +53,11 @@ main {
                 margin: 2rem 0 0 0;
             }
         }
+    }
 
-
-
-
-
+    .container:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 }
