@@ -41,6 +41,9 @@ main {
                 transform: translate(-50%, -50%);
                 min-width: 50vw;
                 text-align: center;
+                p {
+                    margin-top: 0;
+                }
             }
 
             img {

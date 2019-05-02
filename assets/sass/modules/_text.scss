@@ -5,9 +5,11 @@
 html, body { font-size: $base__font-size; }
 
 a {
+    text-decoration: none;
     color: $color__font;
     &:hover {
         color: $color__font;
+        text-decoration: underline;
     }
     &.prplink {
         color: $color__background--button;
