@@ -3,17 +3,17 @@
 
 @media (max-width: 480px) {
     header {
-        background-color: $white !important;
+        background-color: $color__background--header-sm !important;
         -webkit-box-shadow: none !important;
 	   -moz-box-shadow: none !important;
 	   box-shadow: none !important;
     }
-    main {
-        background-color: $xsmainbg;
+    section {
+        background-color: $color__background--xsmain;
         .backlink {
             display: none;
         }
-        .left-container {
+        article {
             form {
                 margin-top: 1rem !important;
                 h1 {
@@ -39,7 +39,7 @@
 }
 
 @media (max-width: 980px) {
-    .left-container {
+    article {
         padding-left: 1rem !important;
         padding-right: 1rem !important;
         h1 {
@@ -49,29 +49,4 @@
     .backlink {
         left: 0 !important;
     }
-}
-
-/*iPad*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	/* css in here */
-}
-
-/*iPhone 2G, 3G, 4, 4S*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	/* css in here */
-}
-
-/*iPhone 5*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
-	/* css in here */
-}
-
-/*iPhone 6, 7 & 8*/
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-	/* css in here */
-}
-
-/*portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones*/
-@media (min-width:641px)  {
-	/* css in here */
 }

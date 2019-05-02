@@ -1,0 +1,18 @@
+*{
+    font-family: $base__font-family;
+}
+
+html, body { font-size: $base__font-size; }
+
+a {
+    color: $color__font;
+    &:hover {
+        color: $color__font;
+    }
+    &.prplink {
+        color: $color__background--button;
+        &:hover {
+            color: $color__background--button;
+        }
+    }
+}

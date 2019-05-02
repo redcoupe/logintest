@@ -1,0 +1,107 @@
+main {
+    height: 94vh;
+
+    .container {
+        margin: 0;
+        max-width: 100%;
+        
+        .leftcontainer {
+            height: 94vh;
+            position: relative;
+            float: left;
+            width: 40%;
+            .left-content {
+                padding-top: 2vh;
+                padding-left: 5rem;
+                padding-right: 5rem;
+                .backlink {
+                    position: relative;
+                    left: -2rem;
+                }
+
+                form {
+                    margin-top: 3rem;
+
+                    h1 {
+                        font-size: 1.4rem;
+                        font-weight: bold !important;
+                    }
+
+                    .otherlogins {
+                        margin-top: 4rem;
+                    }
+
+                    input {
+                        background-color: $color__background--inputs;
+                        margin: 2vh 0;
+                        border: 0;
+                    }
+
+                    .btn-block {
+                        font-size: inherit;
+                        background-color: $color__background--button;
+                        border-color: $color__background--button;
+                        max-width: 7rem;
+
+                        &.btn-other {
+                            background-color: $color__background--button-other;
+                            border-color: $color__background--button-other;
+                            max-width: 100%;
+
+                            &.btn-other-google {
+                                border-color: $color__background--button-google-border;
+                                color: $color__background--button-google-text;
+                            }
+
+                            &.btn-other-facebook {
+                                border-color: $color__background--button-facebook-border;
+                                color: $color__background--button-facebook-text;
+                            }
+                        }
+
+                        img {
+                            margin-right: 0.4rem;
+                        }
+                    }
+                }
+            }
+
+            .signup {
+                position: absolute;
+                bottom: 1rem;
+            }
+        }
+
+        .rightcontainer {
+            background-color: #efeaf4;
+            height: 94vh;
+            position: relative;
+            float: left;
+            width: 60%;
+
+            .right-content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 50vw;
+                text-align: center;
+            }
+
+            img {
+                width: 60%;
+            }
+
+            h1 {
+                font-weight: bold;
+                font-size: 2rem;
+                margin: 2rem 0 0 0;
+            }
+        }
+
+
+
+
+
+    }
+}
