@@ -35,6 +35,12 @@
     }
 }
 
+@media (max-width: 767px) {
+    .rightcontainer {
+        display: none;
+    }
+}
+
 @media (max-width: 980px) {
     .left-content {
         padding-left: 1rem !important;
